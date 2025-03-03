@@ -1,12 +1,20 @@
+import Header from "./components/Header";
+
 function App() {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex w-full max-w-5xl justify-between p-4 sm:p-8">
-                <div>
-                    <div className="mb-1 text-2xl font-semibold">Song Tran</div>
-                    <div className="text-stone-400">Full stack developer</div>
-                    <div className="text-xs text-stone-400">
-                        Melbourne, Australia
+            <Header />
+
+            <div className="w-full max-w-5xl p-4 sm:p-8">
+                <div className="mb-4 text-lg font-semibold">Projects</div>
+                <div className="flex flex-col gap-4">
+                    <div className="flex w-full overflow-hidden rounded-lg bg-stone-900">
+                        <div className="h-64 w-64 bg-stone-400"></div>
+                        <div className="p-4">SD</div>
+                    </div>
+                    <div className="flex w-full overflow-hidden rounded-lg bg-stone-900">
+                        <div className="h-64 w-64 bg-stone-400"></div>
+                        <div className="p-4">SD</div>
                     </div>
                 </div>
             </div>
