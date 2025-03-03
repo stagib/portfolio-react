@@ -1,7 +1,7 @@
 import { FormkitEmail } from "../icons/FormkitEmail";
 import { SimpleIconsGithub } from "../icons/SimpleIconsGithub";
 
-function Header() {
+const Header = () => {
     return (
         <div className="flex w-full max-w-5xl justify-between p-4 sm:p-8">
             <div>
@@ -31,6 +31,6 @@ function Header() {
             </div>
         </div>
     );
-}
+};
 
 export default Header;
