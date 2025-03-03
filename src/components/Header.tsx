@@ -18,13 +18,13 @@ const Header = () => {
                     target="_blank"
                     aria-label="github"
                 >
-                    <div className="">
+                    <div className="text-lg">
                         <SimpleIconsGithub />
                     </div>
                 </a>
 
                 <a href="/" target="_blank" aria-label="email">
-                    <div className="">
+                    <div className="text-lg">
                         <FormkitEmail />
                     </div>
                 </a>

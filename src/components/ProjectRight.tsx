@@ -9,7 +9,7 @@ interface ProjectProps {
     tags: React.ReactNode;
 }
 
-const Project: React.FC<ProjectProps> = ({
+const ProjectRight: React.FC<ProjectProps> = ({
     name,
     source,
     morePage,
@@ -18,7 +18,6 @@ const Project: React.FC<ProjectProps> = ({
 }) => {
     return (
         <div className="flex w-full overflow-hidden rounded-lg bg-stone-900">
-            <a className="h-64 w-64 bg-stone-400 shrink-0" href={morePage}></a>
             <div className="p-4 flex flex-col w-full">
                 <div className="flex flex-col justify-between">
                     <div className="font-semibold mb-1">{name}</div>
@@ -46,8 +45,9 @@ const Project: React.FC<ProjectProps> = ({
                     </div>
                 </div>
             </div>
+            <a className="h-64 w-64 bg-stone-400 shrink-0" href={morePage}></a>
         </div>
     );
 };
 
-export default Project;
+export default ProjectRight;
