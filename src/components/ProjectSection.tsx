@@ -1,10 +1,15 @@
+import { Link } from "react-router-dom";
 import Project from "./Project";
-import ProjectRight from "./ProjectRight";
 
 const ProjectSection = () => {
     return (
-        <div className="w-full max-w-5xl p-4 sm:p-8">
-            <div className="mb-4 text-lg font-semibold">Projects</div>
+        <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
+            <div className="mb-4  flex justify-between items-end">
+                <div className="text-lg font-semibold">Projects</div>
+                <Link className="text-xs text-stone-300" to={"/projects"}>
+                    View more
+                </Link>
+            </div>
             <div className="flex flex-col gap-8">
                 <Project
                     name={"Vault34"}
@@ -21,6 +26,7 @@ const ProjectSection = () => {
                             </div>
 
                             <ul className="list-disc text-sm text-stone-300 px-4 mb-4">
+                                <li>Pinterest clone</li>
                                 <li>Responsive layout</li>
                                 <li>Infinite scroll</li>
                             </ul>
@@ -41,7 +47,7 @@ const ProjectSection = () => {
                     }
                 ></Project>
 
-                <ProjectRight
+                <Project
                     name={"V34 API"}
                     source={"https://github.com/stagib/vault34-api"}
                     morePage={"/"}
@@ -74,7 +80,7 @@ const ProjectSection = () => {
                             </div>
                         </div>
                     }
-                ></ProjectRight>
+                ></Project>
 
                 <Project
                     name={"Portfolio"}

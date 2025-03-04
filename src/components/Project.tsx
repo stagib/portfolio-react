@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { SimpleIconsGithub } from "../icons/SimpleIconsGithub";
 
 interface ProjectProps {
@@ -29,12 +30,12 @@ const Project: React.FC<ProjectProps> = ({
                 <div className="mt-auto flex justify-between">
                     {tags}
                     <div className="flex gap-2">
-                        <a
+                        <Link
                             className="bg-stone-800 flex gap-2 py-1 px-2 items-center hover:bg-stone-700 rounded-md"
-                            href={morePage}
+                            to={morePage}
                         >
                             <div className="text-sm">Learn more</div>
-                        </a>
+                        </Link>
                         <a
                             className="bg-stone-700 flex gap-2 py-1 px-2 items-center hover:bg-stone-600 rounded-md"
                             target="_blank"
