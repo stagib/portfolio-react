@@ -22,7 +22,9 @@ const Project: React.FC<ProjectProps> = ({
             <a className="h-64 w-64 bg-stone-400 shrink-0" href={morePage}></a>
             <div className="p-4 flex flex-col w-full">
                 <div className="flex flex-col justify-between">
-                    <div className="font-semibold mb-1">{name}</div>
+                    <a className="font-semibold mb-1" href={morePage}>
+                        {name}
+                    </a>
 
                     {main}
                 </div>

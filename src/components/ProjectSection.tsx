@@ -34,15 +34,27 @@ const ProjectSection = () => {
                     }
                     tags={
                         <div className="flex gap-2">
-                            <div className="text-xs bg-stone-700 px-2 py-1 rounded-full">
+                            <a
+                                className="text-xs bg-stone-700 hover:bg-stone-600 px-2 py-1 rounded-full"
+                                target="_blank"
+                                href="https://svelte.dev/"
+                            >
                                 SvelteKit
-                            </div>
-                            <div className="text-xs bg-stone-700 px-2 py-1 rounded-full">
+                            </a>
+                            <a
+                                className="text-xs bg-stone-700 hover:bg-stone-600 px-2 py-1 rounded-full"
+                                target="_blank"
+                                href="https://www.javascript.com/"
+                            >
                                 JaveScript
-                            </div>
-                            <div className="text-xs bg-stone-700 px-2 py-1 rounded-full">
+                            </a>
+                            <a
+                                className="text-xs bg-stone-700 hover:bg-stone-600 px-2 py-1 rounded-full"
+                                target="_blank"
+                                href="https://tailwindcss.com/"
+                            >
                                 Tailwind
-                            </div>
+                            </a>
                         </div>
                     }
                 ></Project>
@@ -69,15 +81,27 @@ const ProjectSection = () => {
                     }
                     tags={
                         <div className="flex gap-2">
-                            <div className="text-xs bg-stone-700 px-2 py-1 rounded-full">
+                            <a
+                                className="text-xs bg-stone-700 hover:bg-stone-600 px-2 py-1 rounded-full"
+                                target="_blank"
+                                href="https://fastapi.tiangolo.com/"
+                            >
                                 FastAPI
-                            </div>
-                            <div className="text-xs bg-stone-700 px-2 py-1 rounded-full">
+                            </a>
+                            <a
+                                className="text-xs bg-stone-700 hover:bg-stone-600 px-2 py-1 rounded-full"
+                                target="_blank"
+                                href="https://www.python.org/"
+                            >
                                 Python
-                            </div>
-                            <div className="text-xs bg-stone-700 px-2 py-1 rounded-full">
+                            </a>
+                            <a
+                                className="text-xs bg-stone-700 hover:bg-stone-600 px-2 py-1 rounded-full"
+                                target="_blank"
+                                href="https://www.postgresql.org/"
+                            >
                                 PostgreSQL
-                            </div>
+                            </a>
                         </div>
                     }
                 ></Project>
@@ -103,15 +127,27 @@ const ProjectSection = () => {
                     }
                     tags={
                         <div className="flex gap-2">
-                            <div className="text-xs bg-stone-700 px-2 py-1 rounded-full">
+                            <a
+                                className="text-xs bg-stone-700 hover:bg-stone-600 px-2 py-1 rounded-full"
+                                target="_blank"
+                                href="https://react.dev/"
+                            >
                                 React
-                            </div>
-                            <div className="text-xs bg-stone-700 px-2 py-1 rounded-full">
+                            </a>
+                            <a
+                                className="text-xs bg-stone-700 hover:bg-stone-600 px-2 py-1 rounded-full"
+                                target="_blank"
+                                href="https://www.typescriptlang.org/"
+                            >
                                 TypeScript
-                            </div>
-                            <div className="text-xs bg-stone-700 px-2 py-1 rounded-full">
+                            </a>
+                            <a
+                                className="text-xs bg-stone-700 hover:bg-stone-600 px-2 py-1 rounded-full"
+                                target="_blank"
+                                href="https://tailwindcss.com/"
+                            >
                                 Tailwind
-                            </div>
+                            </a>
                         </div>
                     }
                 ></Project>
