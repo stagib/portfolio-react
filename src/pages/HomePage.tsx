@@ -1,3 +1,4 @@
+import ExperienceSection from "../components/ExperienceSection";
 import Header from "../components/Header";
 import ProjectSection from "../components/ProjectSection";
 import SkillSection from "../components/SkillSection";
@@ -8,6 +9,7 @@ function HomePage() {
             <Header />
             <ProjectSection />
             <SkillSection />
+            <ExperienceSection />
         </div>
     );
 }

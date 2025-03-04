@@ -11,7 +11,7 @@ import Skill from "./Skill";
 
 const SkillSection = () => {
     return (
-        <div className="w-full max-w-5xl p-4 sm:p-8 mb-8">
+        <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
             <div className="mb-4 flex items-end">
                 <div className="text-lg font-semibold">Skills</div>
             </div>
