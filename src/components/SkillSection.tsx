@@ -15,7 +15,7 @@ const SkillSection = () => {
             <div className="mb-4 flex items-end">
                 <div className="text-lg font-semibold">Skills</div>
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 <Skill
                     name="Svelte"
                     description="Component-based front-end framework"

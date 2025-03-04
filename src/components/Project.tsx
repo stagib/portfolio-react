@@ -18,8 +18,11 @@ const Project: React.FC<ProjectProps> = ({
     tags,
 }) => {
     return (
-        <div className="flex w-full overflow-hidden rounded-lg bg-stone-900">
-            <a className="h-64 w-64 bg-stone-400 shrink-0" href={morePage}></a>
+        <div className="flex w-full overflow-hidden rounded-lg bg-stone-900 flex-col sm:flex-row">
+            <a
+                className="min-h-64 min-w-64 bg-stone-400 shrink-0"
+                href={morePage}
+            ></a>
             <div className="p-4 flex flex-col w-full">
                 <div className="flex flex-col justify-between">
                     <a className="font-semibold mb-1" href={morePage}>
@@ -29,7 +32,7 @@ const Project: React.FC<ProjectProps> = ({
                     {main}
                 </div>
 
-                <div className="mt-auto flex justify-between">
+                <div className="mt-auto flex flex-wrap gap-4 justify-between">
                     {tags}
                     <div className="flex gap-2">
                         <Link
