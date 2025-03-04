@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import vault34Image from "../assets/home-medium.webp";
 import Project from "./Project";
 
 const ProjectSection = () => {
     return (
         <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
             <div className="mb-4  flex justify-between items-end">
-                <div className="text-lg font-semibold">Projects</div>
+                <div className="text-lg font-semibold">Featured Projects</div>
                 <Link className="text-xs text-stone-300" to={"/projects"}>
                     View more
                 </Link>
@@ -14,7 +15,8 @@ const ProjectSection = () => {
                 <Project
                     name={"Vault34"}
                     source={"https://github.com/stagib/vault34-frontend"}
-                    morePage={"/"}
+                    src={vault34Image}
+                    morePage={"/projects/vault34"}
                     main={
                         <div>
                             <div className="text-sm text-stone-300 mb-4">
@@ -63,6 +65,7 @@ const ProjectSection = () => {
                     name={"V34 API"}
                     source={"https://github.com/stagib/vault34-api"}
                     morePage={"/"}
+                    src={""}
                     main={
                         <div>
                             <div className="text-sm text-stone-300 mb-4">
@@ -110,6 +113,7 @@ const ProjectSection = () => {
                     name={"Portfolio"}
                     source={"/"}
                     morePage={"/"}
+                    src={""}
                     main={
                         <div>
                             <div className="text-sm text-stone-300 mb-4">

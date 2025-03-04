@@ -6,6 +6,7 @@ interface ProjectProps {
     name: string;
     source: string;
     morePage: string;
+    src: string;
     main: React.ReactNode;
     tags: React.ReactNode;
 }
@@ -14,20 +15,24 @@ const Project: React.FC<ProjectProps> = ({
     name,
     source,
     morePage,
+    src,
     main,
     tags,
 }) => {
     return (
-        <div className="flex w-full overflow-hidden rounded-lg bg-stone-900 flex-col sm:flex-row">
-            <a
-                className="min-h-64 min-w-64 bg-stone-400 shrink-0"
-                href={morePage}
-            ></a>
+        <div className="flex w-full overflow-hidden rounded-lg h-fit sm:h-64 bg-stone-900 flex-col sm:flex-row">
+            <Link
+                className="w-full sm:w-64 bg-stone-400 shrink-0"
+                to={morePage}
+            >
+                <img src={src} alt="" />
+            </Link>
+
             <div className="p-4 flex flex-col w-full">
                 <div className="flex flex-col justify-between">
-                    <a className="font-semibold mb-1" href={morePage}>
+                    <Link className="font-semibold mb-1" to={morePage}>
                         {name}
-                    </a>
+                    </Link>
 
                     {main}
                 </div>
