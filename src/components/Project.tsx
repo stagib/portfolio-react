@@ -20,7 +20,7 @@ const Project: React.FC<ProjectProps> = ({
     tags,
 }) => {
     return (
-        <div className="flex w-full overflow-hidden rounded-lg h-fit sm:h-64 bg-stone-900 flex-col sm:flex-row">
+        <div className="flex w-full overflow-hidden rounded-lg h-fit sm:h-64 bg-stone-900 border border-stone-700 flex-col sm:flex-row">
             <Link
                 className="w-full sm:w-64 bg-stone-400 shrink-0"
                 to={morePage}
