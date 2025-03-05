@@ -1,61 +1,57 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { SimpleIconsGithub } from "../icons/SimpleIconsGithub";
 
 interface ProjectProps {
     name: string;
     source: string;
-    morePage: string;
+    morePage?: string | null;
     src: string;
-    main: React.ReactNode;
-    tags: React.ReactNode;
+    children: React.ReactNode;
 }
 
 const Project: React.FC<ProjectProps> = ({
     name,
-    source,
     morePage,
     src,
-    main,
-    tags,
+    source,
+    children,
 }) => {
     return (
-        <div className="flex w-full overflow-hidden rounded-lg h-fit sm:h-64 bg-stone-900 border border-stone-700 flex-col sm:flex-row">
-            <Link
-                className="w-full sm:w-64 bg-stone-400 shrink-0"
-                to={morePage}
-            >
-                <img src={src} alt="" />
-            </Link>
+        <div className="flex w-full overflow-hidden rounded-lg h-fit sm:h-64 bg-stone-900 border border-stone-800 flex-col sm:flex-row">
+            {morePage ? (
+                <Link
+                    className="w-full sm:w-64 bg-stone-400 shrink-0"
+                    to={morePage}
+                >
+                    <img src={src} alt="" />
+                </Link>
+            ) : (
+                <a
+                    className="w-full sm:w-64 bg-stone-400 shrink-0"
+                    target="_blank"
+                    href={source}
+                >
+                    <img src={src} alt="" />
+                </a>
+            )}
 
             <div className="p-4 flex flex-col w-full">
-                <div className="flex flex-col justify-between">
-                    <Link className="font-semibold mb-1" to={morePage}>
-                        {name}
-                    </Link>
-
-                    {main}
-                </div>
-
-                <div className="mt-auto flex flex-wrap gap-4 justify-between">
-                    {tags}
-                    <div className="flex gap-2">
-                        <Link
-                            className="bg-stone-800 flex gap-2 py-1 px-2 items-center hover:bg-stone-700 rounded-md"
-                            to={morePage}
-                        >
-                            <div className="text-sm">Learn more</div>
+                <div className="flex justify-between">
+                    {morePage ? (
+                        <Link className="font-semibold mb-1" to={morePage}>
+                            {name}
                         </Link>
+                    ) : (
                         <a
-                            className="bg-stone-700 flex gap-2 py-1 px-2 items-center hover:bg-stone-600 rounded-md"
+                            className="font-semibold mb-1"
                             target="_blank"
                             href={source}
                         >
-                            <SimpleIconsGithub />
-                            <div className="text-sm">Source</div>
+                            {name}
                         </a>
-                    </div>
+                    )}
                 </div>
+                {children}
             </div>
         </div>
     );
