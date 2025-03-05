@@ -1,11 +1,10 @@
-import HomeSmall from "..//assets/home-small-3.webp";
-import SearchLarge from "../assets/catsearch-large-2.webp";
-import HomeLarge from "../assets/home-large.webp";
-import HomeMedium from "../assets/home-medium.webp";
-import HeroImage from "../assets/infinitescroll-1080-c.gif";
-import PostSmall from "../assets/post-small.webp";
-import SaveSmall from "../assets/save-small.jpg";
-import VaultSmall from "../assets/vaults-small.jpg";
+import HomeSmall from "..//assets/vault34/home-small-3.webp";
+import SearchLarge from "../assets/vault34/catsearch-large.webp";
+import HomeLarge from "../assets/vault34/home-large-1.webp";
+import HomeMedium from "../assets/vault34/home-medium-1.webp";
+import PostSmall from "../assets/vault34/post-small-1.webp";
+import SaveSmall from "../assets/vault34/save-small.jpg";
+import VaultSmall from "../assets/vault34/vaults-small-1.jpg";
 
 const Vault34Page = () => {
     return (
@@ -13,11 +12,13 @@ const Vault34Page = () => {
             <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
                 <div
                     className="w-full bg-center bg-cover h-96 relative rounded-md"
-                    style={{ backgroundImage: `url(${HeroImage})` }}
+                    style={{ backgroundImage: `url(${HomeLarge})` }}
                 >
                     <div className="absolute inset-0 bg-stone-950/50 flex items-center justify-center">
-                        <div className="text-stone-50 text-2xl font-semibold px-4 py-2 rounded-md backdrop-blur-2xl">
-                            Vault34
+                        <div className="px-4 py-2 w-full h-full rounded-md backdrop-blur-lg">
+                            <div className="flex items-center justify-center h-full text-stone-50 text-3xl font-semibold ">
+                                Vault34
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -32,6 +33,7 @@ const Vault34Page = () => {
                     className="rounded-md border border-stone-600 mb-8"
                     src={HomeLarge}
                     alt=""
+                    loading="lazy"
                 />
 
                 <div className="flex gap-8">
@@ -43,6 +45,7 @@ const Vault34Page = () => {
                             className="rounded-md border max-h-96 border-stone-600"
                             src={HomeMedium}
                             alt=""
+                            loading="lazy"
                         />
                     </div>
 
@@ -54,6 +57,7 @@ const Vault34Page = () => {
                             className="rounded-md border max-h-96 border-stone-600"
                             src={HomeSmall}
                             alt=""
+                            loading="lazy"
                         />
                     </div>
                     <div>
@@ -64,6 +68,7 @@ const Vault34Page = () => {
                             className="rounded-md border max-h-96 border-stone-600"
                             src={PostSmall}
                             alt=""
+                            loading="lazy"
                         />
                     </div>
                 </div>
@@ -75,7 +80,7 @@ const Vault34Page = () => {
                 </div>
                 <div className="flex w-full overflow-hidden rounded-lg h-fit sm:h-64 mb-8 bg-stone-900 flex-col sm:flex-row">
                     <div className="w-full sm:w-96 bg-stone-500 shrink-0 p-4">
-                        <img src={VaultSmall} alt="" />
+                        <img src={VaultSmall} alt="" loading="lazy" />
                     </div>
                     <div className="p-4 flex flex-col w-full">
                         <div className="text-lg font-semibold mb-1">Vaults</div>
@@ -91,7 +96,7 @@ const Vault34Page = () => {
                 </div>
                 <div className="flex w-full overflow-hidden rounded-lg h-fit sm:h-64 bg-stone-900 flex-col sm:flex-row">
                     <div className="w-full sm:w-96 bg-stone-500 shrink-0 p-4">
-                        <img src={SaveSmall} alt="" />
+                        <img src={SaveSmall} alt="" loading="lazy" />
                     </div>
                     <div className="p-4 flex flex-col w-full">
                         <div className="text-lg font-semibold mb-1">Saving</div>
@@ -115,6 +120,7 @@ const Vault34Page = () => {
                     className="rounded-md border border-stone-600"
                     src={SearchLarge}
                     alt=""
+                    loading="lazy"
                 />
             </div>
         </div>

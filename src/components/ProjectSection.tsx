@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import vault34Image from "../assets/home-medium.webp";
+import PortfolioImage from "../assets/portfolio/portfolio-blur-1.jpg";
+import V34Image from "../assets/v34-api/v34.webp";
+import vault34Image from "../assets/vault34/home-medium-1.jpg";
 import Project from "./Project";
 
 const ProjectSection = () => {
@@ -64,8 +66,8 @@ const ProjectSection = () => {
                 <Project
                     name={"V34 API"}
                     source={"https://github.com/stagib/vault34-api"}
-                    morePage={"/"}
-                    src={""}
+                    morePage={"https://github.com/stagib/vault34-api"}
+                    src={V34Image}
                     main={
                         <div>
                             <div className="text-sm text-stone-300 mb-4">
@@ -113,7 +115,7 @@ const ProjectSection = () => {
                     name={"Portfolio"}
                     source={"/"}
                     morePage={"/"}
-                    src={""}
+                    src={PortfolioImage}
                     main={
                         <div>
                             <div className="text-sm text-stone-300 mb-4">
