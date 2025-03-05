@@ -23,7 +23,11 @@ const Project: React.FC<ProjectProps> = ({
                     className="w-full sm:w-64 bg-stone-400 shrink-0"
                     to={morePage}
                 >
-                    <img src={src} alt="" />
+                    <img
+                        className="brightness-80 transition-all hover:brightness-100"
+                        src={src}
+                        alt=""
+                    />
                 </Link>
             ) : (
                 <a
@@ -31,7 +35,11 @@ const Project: React.FC<ProjectProps> = ({
                     target="_blank"
                     href={source}
                 >
-                    <img src={src} alt="" />
+                    <img
+                        className="brightness-80 transition-all hover:brightness-100"
+                        src={src}
+                        alt=""
+                    />
                 </a>
             )}
 
