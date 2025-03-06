@@ -5,12 +5,24 @@ import HomeMedium from "../assets/vault34/home-medium-1.webp";
 import PostSmall from "../assets/vault34/post-small-1.webp";
 import SaveSmall from "../assets/vault34/save-small.jpg";
 import VaultSmall from "../assets/vault34/vaults-small-1.jpg";
+import Bar from "../components/Bar";
 import Container from "../components/Container";
+import GitHubSource from "../components/GithubSource";
+import HomeButton from "../components/HomeButton";
 
 const Vault34Page = () => {
     return (
         <div className="flex flex-col items-center relative">
             <Container>
+                <Bar>
+                    <HomeButton />
+                    <div className="items-center flex justify-center text-sm">
+                        Vault34
+                    </div>
+                    <div className="flex items-center justify-end">
+                        <GitHubSource href="https://github.com/stagib/vault34-frontend" />
+                    </div>
+                </Bar>
                 <div
                     className="w-full bg-center bg-cover h-96 relative rounded-md"
                     style={{ backgroundImage: `url(${HomeLarge})` }}
