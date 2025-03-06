@@ -25,7 +25,11 @@ const Header = () => {
                         </div>
                     </a>
 
-                    <a href="/" target="_blank" aria-label="email">
+                    <a
+                        href="mailto:songtdev@gamil.com"
+                        target="_blank"
+                        aria-label="email"
+                    >
                         <div className="text-lg">
                             <FormkitEmail />
                         </div>
