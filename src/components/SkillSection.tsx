@@ -53,18 +53,18 @@ const SkillSection = () => {
                     <SimpleIconsTailwindcss />
                 </Skill>
                 <Skill
-                    name="TypeScript"
-                    description="Superset of JavaScript"
-                    source="https://www.typescriptlang.org/"
-                >
-                    <SimpleIconsTypescript />
-                </Skill>
-                <Skill
                     name="Flask"
                     description="Micro web framework written in Python"
                     source="https://flask.palletsprojects.com/en/stable/"
                 >
                     <SimpleIconsFlask />
+                </Skill>
+                <Skill
+                    name="TypeScript"
+                    description="Superset of JavaScript"
+                    source="https://www.typescriptlang.org/"
+                >
+                    <SimpleIconsTypescript />
                 </Skill>
                 <Skill
                     name="JavaScript"
