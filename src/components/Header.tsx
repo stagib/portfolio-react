@@ -3,7 +3,7 @@ import { SimpleIconsGithub } from "../icons/SimpleIconsGithub";
 
 const Header = () => {
     return (
-        <div className="flex w-full max-w-5xl justify-between p-4 sm:p-8 mb-12">
+        <div className="flex w-full max-w-4xl justify-between p-4 sm:p-8 mb-12">
             <div>
                 <div className="mb-1 text-2xl font-semibold">Song Tran</div>
                 <div className="text-stone-400">Full stack developer</div>

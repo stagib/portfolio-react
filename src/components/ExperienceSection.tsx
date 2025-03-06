@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const ExperienceSection = () => {
     return (
-        <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
+        <div className="w-full max-w-4xl p-4 sm:p-8 mb-12">
             <div className="mb-4  flex justify-between items-end">
                 <div className="text-lg font-semibold">Experience</div>
                 <Link
