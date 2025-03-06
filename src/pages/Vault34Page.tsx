@@ -9,7 +9,7 @@ import Container from "../components/Container";
 
 const Vault34Page = () => {
     return (
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center relative">
             <Container>
                 <div
                     className="w-full bg-center bg-cover h-96 relative rounded-md"
@@ -17,8 +17,13 @@ const Vault34Page = () => {
                 >
                     <div className="absolute inset-0 bg-stone-950/50 flex items-center justify-center">
                         <div className="px-4 py-2 w-full h-full rounded-md backdrop-blur-lg">
-                            <div className="flex items-center justify-center h-full text-stone-50 text-3xl font-semibold ">
+                            <div className="flex items-center justify-center flex-col h-full text-stone-50 text-3xl font-semibold ">
                                 Vault34
+                                <div className="text-sm text-stone-300 mt-2 w-full sm:w-1/2 text-center">
+                                    Vault34 is a dynamic content-sharing
+                                    platform, allowing users to upload,
+                                    organize, and discover images and videos.
+                                </div>
                             </div>
                         </div>
                     </div>

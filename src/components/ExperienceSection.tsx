@@ -3,8 +3,8 @@ import Container from "./Container";
 
 const ExperienceSection = () => {
     return (
-        <Container>
-            <div className="mb-4  flex justify-between items-end">
+        <Container id="experience">
+            <div className="mb-4 flex justify-between items-end">
                 <div className="text-lg font-semibold">Experience</div>
                 <Link
                     className="text-xs text-stone-300 hover:text-stone-50 transition-colors"

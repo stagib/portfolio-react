@@ -12,7 +12,7 @@ import Skill from "./Skill";
 
 const SkillSection = () => {
     return (
-        <Container>
+        <Container id="skills">
             <div className="mb-4 flex items-end">
                 <div className="text-lg font-semibold">Skills</div>
             </div>

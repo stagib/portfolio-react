@@ -6,7 +6,7 @@ import ProjectVault34 from "./ProjectVault34";
 
 const ProjectSection = () => {
     return (
-        <Container>
+        <Container id="projects">
             <div className="mb-4  flex justify-between items-end">
                 <div className="text-lg font-semibold">Projects</div>
                 <Link

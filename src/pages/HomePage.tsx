@@ -5,7 +5,7 @@ import SkillSection from "../components/SkillSection";
 
 function HomePage() {
     return (
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center overflow-auto w-full">
             <Header />
             <ProjectSection />
             <SkillSection />
