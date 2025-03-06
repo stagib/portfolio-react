@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import Container from "./Container";
 
 const ExperienceSection = () => {
     return (
-        <div className="w-full max-w-4xl p-4 sm:p-8 mb-12">
+        <Container>
             <div className="mb-4  flex justify-between items-end">
                 <div className="text-lg font-semibold">Experience</div>
                 <Link
@@ -21,7 +22,7 @@ const ExperienceSection = () => {
                     Try refreshing the page
                 </div>
             </div>
-        </div>
+        </Container>
     );
 };
 

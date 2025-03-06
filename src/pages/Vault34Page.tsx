@@ -5,11 +5,12 @@ import HomeMedium from "../assets/vault34/home-medium-1.webp";
 import PostSmall from "../assets/vault34/post-small-1.webp";
 import SaveSmall from "../assets/vault34/save-small.jpg";
 import VaultSmall from "../assets/vault34/vaults-small-1.jpg";
+import Container from "../components/Container";
 
 const Vault34Page = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
+            <Container>
                 <div
                     className="w-full bg-center bg-cover h-96 relative rounded-md"
                     style={{ backgroundImage: `url(${HomeLarge})` }}
@@ -22,9 +23,9 @@ const Vault34Page = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Container>
 
-            <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
+            <Container>
                 <div className="text-xl mb-4 font-semibold">
                     Responsive Design
                 </div>
@@ -72,9 +73,9 @@ const Vault34Page = () => {
                         />
                     </div>
                 </div>
-            </div>
+            </Container>
 
-            <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
+            <Container>
                 <div className="text-xl mb-4 font-semibold">
                     Organize ideas with vaults
                 </div>
@@ -109,9 +110,9 @@ const Vault34Page = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Container>
 
-            <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
+            <Container>
                 <div className="text-xl mb-4 font-semibold">
                     Search with tags
                 </div>
@@ -122,7 +123,7 @@ const Vault34Page = () => {
                     alt=""
                     loading="lazy"
                 />
-            </div>
+            </Container>
         </div>
     );
 };

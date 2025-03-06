@@ -7,11 +7,12 @@ import { SimpleIconsSqlite } from "../icons/SimpleIconsSqlite";
 import { SimpleIconsSvelte } from "../icons/SimpleIconsSvelte";
 import { SimpleIconsTailwindcss } from "../icons/SimpleIconsTailwindcss";
 import { SimpleIconsTypescript } from "../icons/SimpleIconsTypescript";
+import Container from "./Container";
 import Skill from "./Skill";
 
 const SkillSection = () => {
     return (
-        <div className="w-full max-w-4xl p-4 sm:p-8 mb-12">
+        <Container>
             <div className="mb-4 flex items-end">
                 <div className="text-lg font-semibold">Skills</div>
             </div>
@@ -80,7 +81,7 @@ const SkillSection = () => {
                     <SimpleIconsSqlite />
                 </Skill>
             </div>
-        </div>
+        </Container>
     );
 };
 

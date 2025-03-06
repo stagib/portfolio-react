@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import Container from "./Container";
 import ProjectPortfolio from "./ProjectPortfolio";
 import ProjectV34 from "./ProjectV34";
 import ProjectVault34 from "./ProjectVault34";
 
 const ProjectSection = () => {
     return (
-        <div className="w-full max-w-4xl p-4 sm:p-8 mb-12">
+        <Container>
             <div className="mb-4  flex justify-between items-end">
                 <div className="text-lg font-semibold">Projects</div>
                 <Link
@@ -20,7 +21,7 @@ const ProjectSection = () => {
                 <ProjectV34 />
                 <ProjectPortfolio />
             </div>
-        </div>
+        </Container>
     );
 };
 
