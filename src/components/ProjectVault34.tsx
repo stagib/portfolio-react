@@ -13,18 +13,14 @@ const ProjectVault34 = () => {
             morePage={"/projects/vault34"}
         >
             <div className="flex flex-col h-full">
-                <div className="text-sm text-stone-300 mb-4">
+                <div className="text-sm text-stone-300 mb-2">
                     Vault34 is a dynamic content-sharing platform, allowing
                     users to upload, organize, and discover images and videos.
-                    Users can create posts, engage with content through
-                    reactions, and explore a curated feed of visually rich
-                    media.
                 </div>
 
                 <ul className="list-disc text-sm text-stone-300 px-4 mb-4">
                     <li>Pinterest clone</li>
                     <li>Responsive layout</li>
-                    <li>Infinite scroll</li>
                 </ul>
 
                 <div className="mt-auto flex flex-wrap gap-4 justify-between">

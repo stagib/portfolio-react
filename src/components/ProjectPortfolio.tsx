@@ -7,10 +7,9 @@ const ProjectPortfolio = () => {
     return (
         <Project name={"Portfolio"} source={"/"} src={PortfolioImage}>
             <div className="flex flex-col h-full">
-                <div className="text-sm text-stone-300 mb-4">
+                <div className="text-sm text-stone-300 mb-2">
                     A simple and modern portfolio designed to highlight the
-                    important aspect of your career. Features a fully responsive
-                    design with user-friendly and interactive UI.
+                    important aspect of your career.
                 </div>
 
                 <ul className="list-disc text-sm text-stone-300 px-4">

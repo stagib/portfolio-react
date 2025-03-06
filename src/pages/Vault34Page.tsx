@@ -29,7 +29,7 @@ const Vault34Page = () => {
                 <div className="text-xl mb-4 font-semibold">
                     Responsive Design
                 </div>
-                <div className="text-sm text-stone-300 mb-1">Large screens</div>
+                <div className="text-xs text-stone-300 mb-1">Large screens</div>
                 <img
                     className="rounded-md border border-stone-600 mb-8"
                     src={HomeLarge}
@@ -37,9 +37,9 @@ const Vault34Page = () => {
                     loading="lazy"
                 />
 
-                <div className="flex gap-8">
+                <div className="flex gap-4 sm:gap-8">
                     <div>
-                        <div className="text-sm text-stone-300 mb-1">
+                        <div className="text-xs text-stone-300 mb-1">
                             Medium screens
                         </div>
                         <img
@@ -51,7 +51,7 @@ const Vault34Page = () => {
                     </div>
 
                     <div>
-                        <div className="text-sm text-stone-300 mb-1">
+                        <div className="text-xs text-stone-300 mb-1">
                             Small screens
                         </div>
                         <img
@@ -62,7 +62,7 @@ const Vault34Page = () => {
                         />
                     </div>
                     <div>
-                        <div className="text-sm text-stone-300 mb-1">
+                        <div className="text-xs text-stone-300 mb-1">
                             Small screens
                         </div>
                         <img
@@ -89,9 +89,7 @@ const Vault34Page = () => {
                             Manage your favourite posts into customizable
                             vaults. Organize content by themes, moods, or
                             inspirations, making it simple to revisit and share
-                            later. Whether you're curating ideas or collecting
-                            references, vaults help keep everything in one
-                            place.
+                            later.
                         </div>
                     </div>
                 </div>
@@ -105,8 +103,7 @@ const Vault34Page = () => {
                             Found something inspiring? Save posts with a single
                             click and access them anytime. Easily organize your
                             saved content into vaults for better categorization
-                            and quick reference. Never lose track of the ideas
-                            that matter to you!
+                            and quick reference.
                         </div>
                     </div>
                 </div>

@@ -11,11 +11,9 @@ const ProjectV34 = () => {
             src={V34Image}
         >
             <div className="flex flex-col h-full">
-                <div className="text-sm text-stone-300 mb-4">
+                <div className="text-sm text-stone-300 mb-2">
                     V34 API is a high-performance and scalable API for handling
-                    user authentication, post management, and media uploads. it
-                    ensures efficient data handling, fast responses, and
-                    seamless integration with Vault34 frontend.
+                    user authentication, post management, and media uploads.
                 </div>
 
                 <ul className="list-disc text-sm text-stone-300 px-4">
