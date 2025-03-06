@@ -15,7 +15,7 @@ const Skill: React.FC<SkillProps> = ({
 }) => {
     return (
         <a
-            className="bg-stone-700 p-4 rounded-md hover:bg-stone-600"
+            className="bg-stone-700 p-4 rounded-md hover:bg-stone-600 transition-colors"
             target="_blank"
             href={source}
         >

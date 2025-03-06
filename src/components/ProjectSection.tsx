@@ -8,7 +8,10 @@ const ProjectSection = () => {
         <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
             <div className="mb-4  flex justify-between items-end">
                 <div className="text-lg font-semibold">Featured Projects</div>
-                <Link className="text-xs text-stone-300" to={"/projects"}>
+                <Link
+                    className="text-xs text-stone-300 hover:text-stone-50 transition-colors"
+                    to={"/projects"}
+                >
                     View more
                 </Link>
             </div>

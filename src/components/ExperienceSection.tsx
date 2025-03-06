@@ -5,7 +5,10 @@ const ExperienceSection = () => {
         <div className="w-full max-w-5xl p-4 sm:p-8 mb-12">
             <div className="mb-4  flex justify-between items-end">
                 <div className="text-lg font-semibold">Experience</div>
-                <Link className="text-xs text-stone-300" to={"/experiences"}>
+                <Link
+                    className="text-xs text-stone-300 hover:text-stone-50 transition-colors"
+                    to={"/experiences"}
+                >
                     View more
                 </Link>
             </div>
