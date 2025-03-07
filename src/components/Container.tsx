@@ -5,7 +5,7 @@ interface Props {
 
 const Container: React.FC<Props> = ({ id, children }) => {
     return (
-        <section className="w-full max-w-3xl  p-4 sm:p-8 mb-12" id={id}>
+        <section className="w-full max-w-3xl p-4 sm:p-8 mb-10" id={id}>
             {children}
         </section>
     );
