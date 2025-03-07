@@ -1,5 +1,5 @@
 import PortfolioImage from "../assets/portfolio/portfolio-blur-1.jpg";
-import GitHubSource from "./GithubSource";
+import GitHubSource from "./GitHubSource";
 import Project from "./Project";
 import Tag from "./Tag";
 
