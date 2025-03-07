@@ -1,5 +1,5 @@
 import vault34Image from "../assets/vault34/home-medium-1.jpg";
-import GitHubSource from "./GithubSource";
+import GitHubSource from "./GitHubSource";
 import LearnMoreButton from "./LearnMoreButton";
 import Project from "./Project";
 import Tag from "./Tag";

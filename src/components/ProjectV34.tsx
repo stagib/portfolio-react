@@ -1,5 +1,5 @@
 import V34Image from "../assets/v34-api/v34.webp";
-import GitHubSource from "./GithubSource";
+import GitHubSource from "./GitHubSource";
 import Project from "./Project";
 import Tag from "./Tag";
 

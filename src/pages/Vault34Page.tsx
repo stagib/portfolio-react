@@ -7,7 +7,7 @@ import SaveSmall from "../assets/vault34/save-small.jpg";
 import VaultSmall from "../assets/vault34/vaults-small-1.jpg";
 import Bar from "../components/Bar";
 import Container from "../components/Container";
-import GitHubSource from "../components/GithubSource";
+import GitHubSource from "../components/GitHubSource";
 import HomeButton from "../components/HomeButton";
 
 const Vault34Page = () => {
