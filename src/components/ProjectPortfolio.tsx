@@ -5,7 +5,11 @@ import Tag from "./Tag";
 
 const ProjectPortfolio = () => {
     return (
-        <Project name={"Portfolio"} source={"/"} src={PortfolioImage}>
+        <Project
+            name={"Portfolio"}
+            source={"https://github.com/stagib/portfolio-react"}
+            src={PortfolioImage}
+        >
             <div className="flex flex-col h-full">
                 <div className="text-sm text-stone-300 mb-2">
                     A simple and modern portfolio designed to highlight the
@@ -30,7 +34,9 @@ const ProjectPortfolio = () => {
                         />
                     </div>
                     <div className="flex gap-2">
-                        <GitHubSource href={"/"} />
+                        <GitHubSource
+                            href={"https://github.com/stagib/portfolio-react"}
+                        />
                     </div>
                 </div>
             </div>
